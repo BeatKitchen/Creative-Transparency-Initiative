@@ -2,7 +2,24 @@
 
 > **Status:** Open question — seeking input
 
-Creative Commons works because it's a good idea with a name people understand. We need the same.
+## Why This Matters
+
+One of the first decisions we need to make is settling on a name.
+
+Creative Commons isn't just a good idea—it's a good idea with a name people can understand and get behind. If we want people to embrace this standard and adopt it, there's a branding component we need to nail.
+
+The term "AI" is loaded and also not particularly accurate. Machine learning, large language models, generative AI—the terminology is already shifting. We need something that's:
+
+- **Understandable** — People get it immediately
+- **Future-proof** — Won't feel dated in 5 years
+- **Non-judgmental** — No embedded bias about AI use
+- **Inclusive** — Works across industries and contexts
+
+There's no point in creating a spec if the first point of failure is the name.
+
+— *BeatKitchenSchool, Founder*
+
+---
 
 ---
 
