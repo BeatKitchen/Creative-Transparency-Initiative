@@ -6,6 +6,14 @@ A simple, composable framework for creators to disclose how they use AI—inspir
 
 ---
 
+## First: We Need a Name
+
+Creative Commons works because it's a good idea with a name people can understand. The term "AI" is loaded and may not age well. Before we finalize anything, we need to get the naming right.
+
+**[Join the naming discussion →](discussions/NAMING.md)**
+
+---
+
 ## The Problem
 
 "I use AI" is meaningless. "AI writes my songs" vs "AI checks my grammar" are vastly different. Current disclosure options are either:
