@@ -17,10 +17,6 @@ The term "AI" is loaded and also not particularly accurate. Machine learning, la
 
 There's no point in creating a spec if the first point of failure is the name.
 
-— *BeatKitchenSchool, Founder*
-
----
-
 ---
 
 ## The Problem
