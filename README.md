@@ -1,8 +1,64 @@
-# AI Transparency Commons (ATC)
+# AI Transparency Commons
 
 > **v0.1 DRAFT** — Seeking feedback before public release
 
-A simple, composable framework for creators to disclose how they use AI—inspired by Creative Commons.
+> The following was dictated into my phone as a stream-of-consciousness essay and cleaned up for spelling and grammar. `OH-CH-VA`
+
+---
+
+One of the difficult things I think we all face—and that this project in particular faces—is the ambiguity surrounding what is and isn't generative creativity.
+
+Music is full of comparisons between using loops, drum machines, and virtual performers. I don't think many producers would think to label their own productions using Logic Drummer as generative assistance. In fact, there are norms that we have mostly gotten used to that hug the borders between human and machine.
+
+No one would want to label their writing as AI-assisted because they used spell check. But how about grammar check? Or what about predictive text?
+
+Because a lot of conceptions around this topic are going to change, it really requires us to acknowledge that some of this has to do with social norms and conventions. To that end, I think it would be useful to create a running list of examples to see how people might interpret various scenarios.
+
+---
+
+In the interest of being transparent but not judgmental, I think we have to acknowledge that anyone using the system is making a good-faith attempt to be transparent.
+
+But all sorts of people might choose to code their creative work differently. A traditionalist who prides themselves on doing everything by hand is going to interpret human origin one way, and someone who chooses to allow a large language model to generate some random images in order to inspire a songwriting session might claim the same.
+
+The common factor between both of them is the desire to disclose, and I think it is the common human desire to take credit for our own ideas while acknowledging the force multiplier which is the lever we apply against them.
+
+---
+
+This system is not about keeping track of whether the agent on the other end of the line when you call to pay your phone bill is a real person or not. It's not about determining if one model is biased or if the safety guardrails are intact on another. These are valid concerns but separate issues.
+
+This initiative is about the very human desire to give ourselves credit for our own ingenuity while acknowledging the use of tools.
+
+---
+
+### About this disclosure
+
+**Code:** `OH-CH-VA` — Human origin, human created, machine verified
+
+**What that means:** I wrote this. An AI cleaned it up for spelling and grammar. Changes included:
+- "logic drummer" → "Logic Drummer"
+- "AI assisted" → "AI-assisted"
+- "guard rails" → "guardrails"
+- Minor punctuation
+
+The ideas and words are mine. The proofreading wasn't.
+
+---
+
+## Purpose
+
+A simple, voluntary system for creators to disclose how they use AI—not whether they do.
+
+---
+
+## What This Project Is
+
+Inspired by Creative Commons. Few elements, flexible combinations, human-readable codes that creators can apply to their own work.
+
+---
+
+## Mission
+
+To create a shared vocabulary for transparency around AI use in creative work—one that is understandable, future-proof, non-judgmental, and inclusive.
 
 ---
 
@@ -14,132 +70,11 @@ Creative Commons works because it's a good idea with a name people can understan
 
 ---
 
-## The Problem
+## Get Involved
 
-"I use AI" is meaningless. "AI writes my songs" vs "AI checks my grammar" are vastly different. Current disclosure options are either:
-- Vague ("AI-assisted")
-- Binary ("AI-generated" or not)
-- Platform-specific (YouTube, TikTok, etc.)
-- Technical (C2PA metadata)
-
-Creators need a simple, human-readable way to communicate **how** they use AI, not just **whether** they do.
-
----
-
-## The Framework
-
-ATC answers three questions:
-
-| Question | What it captures |
-|----------|------------------|
-| **Origin** | Where did the ideas/knowledge come from? |
-| **Creation** | Who/what made the primary output? |
-| **Oversight** | How was quality ensured? |
-
-### Core Elements
-
-#### Origin
-| Code | Name | Meaning |
-|------|------|---------|
-| **HO** | Human Origin | Core ideas, expertise, creative vision are human |
-| **AO** | AI-Informed Origin | AI contributed to ideation or knowledge base |
-
-#### Creation
-| Code | Name | Meaning |
-|------|------|---------|
-| **HC** | Human Created | Human produced the primary work product |
-| **AC** | AI-Assisted Creation | AI helped produce work; human shaped output |
-| **AG** | AI Generated | AI produced primary output; human selected/curated |
-
-#### Oversight
-| Code | Name | Meaning |
-|------|------|---------|
-| **HV** | Human Verified | Human expert reviewed for accuracy |
-| **AV** | AI Verified | AI checked facts, calculations, or consistency |
-| **UV** | Unverified | No systematic verification (default if omitted) |
-
-### Modifiers
-| Code | Name | Use case |
-|------|------|----------|
-| **+T** | Tools Only | AI limited to technical tools (code, integrations, formatting) |
-| **+P** | Process Only | AI used in workflow, not in output |
-| **+D** | Disclosure | Detailed statement available |
-| **+R** | Restricted Domain | AI use limited to specific stated area |
-
----
-
-## Examples
-
-| Badge | Meaning | Typical Use |
-|-------|---------|-------------|
-| `HO-HC` | Fully Human | Traditional creation, no AI |
-| `HO-HC-AV` | Human + AI Check | Human work, AI verified facts/math |
-| `HO-AC` | Human-Led | Human ideas, AI assists execution |
-| `HO-AG-HV` | Human-Curated | AI generates, human expertise curates |
-| `AO-AC` | Collaborative | AI contributes to both ideas and creation |
-| `AO-AG` | AI Primary | AI-driven with human oversight |
-
-### Industry Applications
-
-| Field | Example | Meaning |
-|-------|---------|---------|
-| Education | `HO-HC-AV` | Teacher's knowledge, AI checks examples |
-| Journalism | `HO-HC-AV` | Reporter's investigation, AI fact-checks |
-| Software | `HO-AC+T` | Developer's design, AI assists coding |
-| Art | `HO-AG-HV` | Artist's vision, AI generates, artist curates |
-| Marketing | `AO-AC-HV` | AI helps with concepts, human approves |
-
----
-
-## Human-Readable Format
-
-A badge like `HO-AC-HV+D` expands to:
-
-> **Human Origin, AI-Assisted Creation, Human Verified**
-> Ideas and direction are mine. AI assisted with execution. All content reviewed and approved.
-
----
-
-## Principles
-
-1. **Neutral** — No level is "better"; appropriate use varies by context
-2. **Composable** — Elements combine flexibly across industries
-3. **Evolvable** — Your disclosure can change as practices change
-4. **Layered** — Badge → Short description → Full disclosure
-5. **Voluntary** — Adoption through value, not mandate
-
----
-
-## Relationship to Other Standards
-
-ATC is **complementary** to technical standards like [C2PA/Content Credentials](https://c2pa.org/).
-
-- **C2PA** = cryptographic metadata embedded in files (verification)
-- **ATC** = human-readable creator declaration (communication)
-
-They can coexist. Use C2PA for provenance verification, ATC for communicating intent.
-
----
-
-## Status
-
-This is a **v0.1 draft** developed collaboratively with AI assistance.
-
-**This project's own disclosure:** `HO-AC-HV+D`
-> Framework concept and direction by BeatKitchenSchool. Specification developed with AI assistance. All content reviewed and approved by human author.
-
----
-
-## Help Wanted
-
-We're looking for feedback from:
-- **Creators** — Does this capture how you'd describe your AI use?
-- **Designers** — Can you help visualize badges?
-- **Writers** — Can we make this clearer?
-- **Domain experts** — How does this apply to your field?
-- **Critics** — What's missing? What won't work?
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to participate.
+- **[Read the specification](SPECIFICATION.md)** — The technical framework
+- **[See how this project was made](archive/bak-genisis.md)** — Full transparency on the process
+- **[Previous README](archive/README-v1.md)** — Earlier version of this document
 
 ---
 
@@ -151,4 +86,4 @@ You are free to share and adapt this framework for any purpose, provided you giv
 
 ---
 
-**Founded by [BeatKitchenSchool](https://github.com/BeatKitchenSchool)**
+**Founded by Nathan Rosenberg / [BeatKitchenSchool](https://github.com/BeatKitchenSchool)**
