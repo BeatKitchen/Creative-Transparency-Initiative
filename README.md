@@ -8,7 +8,7 @@ A simple, composable framework for creators to disclose how they use AI—inspir
 
 ## The Problem
 
-"I use AI" is meaningless. "AI writes my scripts" vs "AI checks my grammar" are vastly different. Current disclosure options are either:
+"I use AI" is meaningless. "AI writes my songs" vs "AI checks my grammar" are vastly different. Current disclosure options are either:
 - Vague ("AI-assisted")
 - Binary ("AI-generated" or not)
 - Platform-specific (YouTube, TikTok, etc.)
