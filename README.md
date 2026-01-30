@@ -1,4 +1,4 @@
-# AI Transparency Commons
+# AI Generative Transparency Project
 
 > **v0.1 DRAFT** — Seeking feedback before public release
 
