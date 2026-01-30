@@ -2,7 +2,7 @@
 
 > **v0.1 DRAFT** — Seeking feedback before public release
 
-> The following was dictated into my phone as a stream-of-consciousness essay and cleaned up for spelling and grammar. `OH-CH-VA`
+> The following was dictated into my phone as a stream-of-consciousness essay and cleaned up for spelling and grammar. `Ah-Eh-Rm`
 
 ---
 
@@ -32,7 +32,7 @@ This initiative is about the very human desire to give ourselves credit for our 
 
 ### About this disclosure
 
-**Code:** `OH-CH-VA` — Human origin, human created, machine verified
+**Code:** `Ah-Eh-Rm` — Authorship: human, Execution: human, Refinement: machine
 
 **What that means:** I wrote this. An AI cleaned it up for spelling and grammar. Changes included:
 - "logic drummer" → "Logic Drummer"

@@ -1,6 +1,6 @@
 # AI Transparency Commons — Specification
 
-> **Version 0.2 DRAFT** — Living document, open for discussion
+> **Version 0.3 DRAFT** — Living document, open for discussion
 
 This specification is designed to evolve. The AI landscape moves quickly, and this framework must adapt. Expect revisions as the community pressure-tests these ideas.
 
@@ -14,62 +14,73 @@ Inspired by Creative Commons: few elements, flexible combinations, human-readabl
 
 ---
 
-## The Questions
+## Dimensions and Qualifiers
 
-Every ATC disclosure considers up to three questions:
+The framework uses **dimensions** (the questions being asked) and **qualifiers** (the answers).
 
-| Code | Question | What it captures |
-|------|----------|------------------|
-| **O** | Origin | Where did the ideas come from? |
-| **C** | Creation | Who made the primary output? |
-| **V** | Verification | Who checked the work? |
+Every disclosure considers up to four dimensions:
+
+| Dimension | Code | Question |
+|-----------|------|----------|
+| **Authorship** | A | Where did the ideas come from? |
+| **Execution** | E | Who made the primary output? |
+| **Refinement** | R | Who polished or cleaned it up? |
+| **Verification** | V | Who checked the final result? |
+
+Each dimension takes one of three qualifiers:
+
+| Qualifier | Code | Meaning |
+|-----------|------|---------|
+| **Human** | h | Human did this |
+| **Assisted** | a | Human and machine together |
+| **Machine** | m | Machine did this |
 
 Include only the dimensions relevant to your work. Omitting a dimension means it's not applicable—not that you're hiding something.
 
 ---
 
-## Core Codes
+## Code Format
 
-Each dimension uses a two-letter code: **dimension + value**
+Codes are two-letter pairs: **uppercase dimension + lowercase qualifier**, separated by hyphens.
 
-### Origin (O)
+**Canonical format:** `Ah-Ea-Rm-Vh`
 
-| Code | Name | Meaning |
-|------|------|---------|
-| **OH** | Origin: Human | Ideas, concept, creative vision are human |
-| **OA** | Origin: AI | AI contributed to the core concept or ideation |
+| Format | Example | When to use |
+|--------|---------|-------------|
+| **Preferred** | `Ah-Ea-Rm-Vh` | Anywhere case is preserved |
+| **All caps** | `AH-EA-RM-VH` | Hashtags, case-insensitive systems |
+| **All lower** | `ah-ea-rm-vh` | Case-flattened contexts |
+| **No hyphens** | `AhEaRmVh` | Compact display |
 
-### Creation (C)
+Case and hyphens improve readability but are not required for parsing. Codes degrade gracefully across formats.
 
-| Code | Name | Meaning |
-|------|------|---------|
-| **CH** | Creation: Human | Human made the work |
-| **CA** | Creation: Assisted | AI helped; human drove the process |
-| **CC** | Creation: Contributed | AI made a distinct element; human made the rest |
-| **CG** | Creation: Generated | AI produced the primary output; human curated/selected |
+---
 
-### Verification (V)
+## The Full Matrix
 
-| Code | Name | Meaning |
-|------|------|---------|
-| **VH** | Verification: Human | Human reviewed for accuracy |
-| **VA** | Verification: AI | AI checked facts, calculations, or consistency |
+| | Human (h) | Assisted (a) | Machine (m) |
+|---|---|---|---|
+| **Authorship (A)** | `Ah` — My idea | `Aa` — We ideated together | `Am` — Machine's idea |
+| **Execution (E)** | `Eh` — I made it | `Ea` — Machine helped make it | `Em` — Machine made it |
+| **Refinement (R)** | `Rh` — I polished it | `Ra` — Machine helped polish | `Rm` — Machine polished it |
+| **Verification (V)** | `Vh` — I checked it | `Va` — Machine helped check | `Vm` — Machine checked it |
 
-*Omit V entirely if verification isn't relevant to your work.*
+4 dimensions × 3 qualifiers = 12 possible codes.
 
 ---
 
 ## Building a Disclosure
 
-Combine codes with hyphens:
+Combine codes with hyphens. Only include dimensions that are relevant:
 
 | Badge | Reads as |
 |-------|----------|
-| `OH-CH` | Human origin, human created |
-| `OH-CA` | Human origin, AI assisted |
-| `OH-CC-VH` | Human origin, AI contributed, human verified |
-| `OH-CG-VH` | Human origin, AI generated, human verified |
-| `OA-CG` | AI-informed origin, AI generated |
+| `Ah-Eh` | My idea, I made it |
+| `Ah-Ea` | My idea, machine helped make it |
+| `Ah-Ea-Rm-Vh` | My idea, machine helped make it, machine polished, I verified |
+| `Ah-Em-Vh` | My idea, machine made it, I verified |
+| `Am-Em` | Machine's idea, machine made it |
+| `Ah-Eh-Rm` | My idea, I made it, machine polished |
 
 ---
 
@@ -77,15 +88,17 @@ Combine codes with hyphens:
 
 | Field | Scenario | Badge |
 |-------|----------|-------|
-| **Music** | I wrote a song, used AI for drum track | `OH-CC-VH` |
-| **Music** | I wrote and produced everything | `OH-CH` |
-| **Journalism** | My investigation, AI fact-checked | `OH-CH-VA` |
-| **Software** | My architecture, AI helped write code | `OH-CA` |
-| **Art** | My concept, AI generated images, I curated | `OH-CG-VH` |
-| **Education** | My lesson, AI checked my examples | `OH-CH-VA` |
-| **Marketing** | AI drafted copy, I edited and approved | `OH-CG-VH` |
-| **Writing** | AI checked grammar | `OH-CA` |
-| **Writing** | AI wrote first draft, I rewrote heavily | `OH-CG-VH` |
+| **Music** | My song, I produced, AI mastered | `Ah-Eh-Rm` |
+| **Music** | My song, AI made the drum track, I approved | `Ah-Ea-Vh` |
+| **Music** | I wrote and produced everything | `Ah-Eh` |
+| **Journalism** | My investigation, AI fact-checked | `Ah-Eh-Vm` |
+| **Software** | My architecture, AI helped write code, I reviewed | `Ah-Ea-Vh` |
+| **Art** | My concept, AI generated images, I curated | `Ah-Em-Vh` |
+| **Education** | My lesson, AI checked my examples | `Ah-Eh-Vm` |
+| **Writing** | My essay, AI cleaned up grammar | `Ah-Eh-Rm` |
+| **Writing** | My ideas, AI wrote first draft, I rewrote heavily | `Ah-Em-Rh-Vh` |
+| **Photography** | My shot, AI retouched | `Ah-Eh-Rm` |
+| **Video** | My concept, I shot, AI color graded, I reviewed | `Ah-Eh-Rm-Vh` |
 
 ---
 
@@ -99,17 +112,18 @@ Some tools blur the line. This framework doesn't mandate where AI begins—creat
 - Smart filters in photo apps
 - Search engines for research
 - Predictive text / autocomplete
+- Drum machines / virtual instruments
 
-**Guidance:** If you're unsure whether something "counts," consider whether your audience would want to know. When in doubt, disclose.
+**Guidance:** If you're unsure whether something "counts," consider whether your audience would want to know. When in doubt, disclose. Anyone using this system is making a good-faith attempt at transparency.
 
 ---
 
 ## Layered Disclosure
 
-ATC supports three levels of detail:
+The framework supports three levels of detail:
 
-1. **Badge** — The code itself (`OH-CA-VH`)
-2. **Short description** — One sentence ("Human ideas, AI assisted with execution, human verified")
+1. **Badge** — The code itself (`Ah-Ea-Rm-Vh`)
+2. **Short description** — One sentence ("My ideas, AI helped execute, AI refined, I verified")
 3. **Full disclosure** — Detailed explanation of what AI did and didn't do
 
 Creators choose how much detail to provide.
@@ -130,23 +144,19 @@ Creators choose how much detail to provide.
 
 These are unresolved and welcome discussion:
 
-### Is Origin necessary?
+### Is Authorship necessary?
 
-Most disclosures may default to OH (Human Origin). If AI prompts are just "idea starters" like any creative exercise, OA may rarely apply.
+Most disclosures may default to `Ah` (Authorship: Human). If AI prompts are just "idea starters" like any creative exercise, `Am` may rarely apply.
 
-**When does OA clearly apply?**
+**When does `Am` clearly apply?**
 - AI generated the core creative substance (melody, thesis, design concept)
 - **Not:** AI gave me a prompt I ran with
 
-*If Origin proves to be dead weight in practice, it may be removed in future versions.*
+*If Authorship proves to be dead weight in practice, it may be removed in future versions.*
 
 ### Where is the line for "counts as AI"?
 
 Spell check? Grammar tools? Smart filters? The framework deliberately doesn't define this—but community norms may emerge.
-
-### Component vs. whole
-
-If AI made one element (drums in a song), does that need different treatment than AI assisting throughout? Current approach: describe in the short description, not the badge.
 
 ### Verification relevance
 
@@ -175,17 +185,17 @@ They can coexist. Use C2PA for technical verification, ATC for communicating to 
 
 This is a living document. Major changes will be versioned. Disclosures should include the spec version if precision matters:
 
-`ATC v0.2: OH-CA-VH`
+`ATC v0.3: Ah-Ea-Vh`
 
 ---
 
 ## This Document's Disclosure
 
-`ATC: OH-CC-VH`
+`Ah-Ea-Vh`
 
-> Framework concept and direction by BeatKitchenSchool. Specification developed with AI assistance (significant portions of text). All content reviewed and approved by human author.
+> Framework concept and direction by Nathan Rosenberg / BeatKitchenSchool. Specification developed with AI assistance (significant portions of text). All content reviewed and approved by human author.
 
 ---
 
-*Specification version: 0.2 DRAFT*
+*Specification version: 0.3 DRAFT*
 *Last updated: January 2026*
