@@ -20,10 +20,10 @@ We need a way to be specific without being defensive.
 
 Four dimensions. Three qualifiers. Total transparency.
 
-**:ctA: Authorship** — Whose idea was it?  
-**:ctE: Execution** — Who did the work?  
-**:ctR: Refinement** — Who polished it?  
-**:ctV: Verification** — Who checked it?
+**A**: Authorship — Whose idea was it?  
+**E**: Execution** — Who did the work?  
+**R**: Refinement** — Who polished it?  
+**R**: Verification** — Who checked it?
 
 Tag each with:
 - **h** = human
