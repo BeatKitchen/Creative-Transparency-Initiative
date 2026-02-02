@@ -78,9 +78,9 @@ The working title is **Creative Transparency Initiative (CT)**. Naming discussio
 
 ## License
 
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-You are free to share and adapt this framework for any purpose, provided you give appropriate credit.
+You are free to share and adapt this framework for any purpose, provided you give appropriate credit and distribute contributions under the same license.
 
 ---
 
