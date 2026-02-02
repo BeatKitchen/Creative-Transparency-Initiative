@@ -30,8 +30,8 @@ Each dimension can be tagged **h** (human), **a** (assisted), or **m** (machine)
 
 ### Examples
 
-**This README:** `Ah-Eh-Rh-Vh`  
-My idea. I wrote it. Human refined it. I verified it.
+**This README:** `Ah-Eh-Ra-Vh`
+My idea. I wrote it. AI helped refine it. I verified it.
 
 **A blog post:** `Ah-Eh-Ra-Vh`  
 Your concept, you wrote it, AI helped edit, you checked it.
@@ -101,7 +101,7 @@ You are free to share and adapt this framework for any purpose, provided you giv
 
 ### About This README
 
-**Code:** `Ah-Eh-Rh-Vh`
+**Code:** `Ah-Eh-Ra-Vh`
 
 This was my idea (inspired by Creative Commons). I wrote the specifications and this README. I worked through some problems and permutations using Claude AI. The current state of the specifications and repository are verified by me.
 
