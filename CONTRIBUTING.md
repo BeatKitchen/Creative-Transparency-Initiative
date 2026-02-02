@@ -1,4 +1,4 @@
-# Contributing to AI Transparency Commons
+# Contributing to Creative Transparency Initiative
 
 Thank you for your interest in helping build this framework.
 

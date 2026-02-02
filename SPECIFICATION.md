@@ -1,4 +1,4 @@
-# AI Transparency Commons — Specification
+# Creative Transparency Initiative — Specification
 
 > **Version 0.3 DRAFT** — Living document, open for discussion
 
@@ -170,14 +170,14 @@ Should there be a way to indicate "this content may/may not be used for AI train
 
 ## Relationship to Other Standards
 
-ATC is **complementary** to technical standards like C2PA/Content Credentials.
+CT is **complementary** to technical standards like C2PA/Content Credentials.
 
 | Standard | Purpose |
 |----------|---------|
 | **C2PA** | Cryptographic metadata embedded in files (provenance verification) |
-| **ATC** | Human-readable creator declaration (intent communication) |
+| **CT** | Human-readable creator declaration (intent communication) |
 
-They can coexist. Use C2PA for technical verification, ATC for communicating to your audience.
+They can coexist. Use C2PA for technical verification, CT for communicating to your audience.
 
 ---
 
@@ -185,7 +185,7 @@ They can coexist. Use C2PA for technical verification, ATC for communicating to 
 
 This is a living document. Major changes will be versioned. Disclosures should include the spec version if precision matters:
 
-`ATC v0.3: Ah-Ea-Vh`
+`CT v0.3: Ah-Ea-Vh`
 
 ---
 

@@ -1,4 +1,4 @@
-# AI Generative Transparency Project
+# Creative Transparency Initiative
 
 > **v0.1 DRAFT** — Seeking feedback before public release
 
@@ -62,11 +62,9 @@ To create a shared vocabulary for transparency around AI use in creative work—
 
 ---
 
-## First: We Need a Name
+## Naming
 
-Creative Commons works because it's a good idea with a name people can understand. The term "AI" is loaded and may not age well. Before we finalize anything, we need to get the naming right.
-
-**[Join the naming discussion →](discussions/NAMING.md)**
+The working title is **Creative Transparency Initiative (CT)**. Naming discussion and history in [discussions/NAMING.md](discussions/NAMING.md).
 
 ---
 
