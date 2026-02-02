@@ -1,18 +1,25 @@
 # Creative Transparency Initiative
 
-**v0.1 DRAFT** — Seeking feedback before public release
+**v0.1 DRAFT** — Seeking feedback before public release  
+**Working title** — Name needs community consensus. See [discussions/NAMING.md](discussions/NAMING.md)
+
+A simple, voluntary system for disclosing how AI was used in creative work—not whether it was used.
 
 ---
 
-I wanted to share a project I've been working on. It's inspired by Creative Commons and it's an attempt to give people a transparent, nonjudgmental way to disclose how and when AI gets used creatively.
-
 ## The Problem
 
-Right now, "I used AI" doesn't tell you anything. Spell-check? Logic Drummer laying down a beat? A straight Suno prompt? They all get lumped together, and the specter of AI makes people doubt whether creative work is actually yours.
+"I used AI" doesn't tell you anything. 
 
-## How It Works
+Spell-check? Logic Drummer laying down a beat? A straight Suno prompt? Right now they all get lumped together. That ambiguity makes it impossible to give yourself credit for the work you actually did, and the specter of AI makes people doubt whether creative work is actually yours.
 
-The Creative Transparency Initiative breaks the creative workflow into four components:
+We need a way to be specific without being defensive.
+
+---
+
+## The System
+
+Designed to be transparent, simple, and human readable: Four dimensions. Three qualifiers.
 
 **A**: Authorship — Whose idea was it?  
 **E**: Execution — Who did the work?  
@@ -23,34 +30,62 @@ Each dimension can be tagged **h** (human), **a** (assisted), or **m** (machine)
 
 ### Examples
 
-I might code a message as `Ah-Va` (my idea, I had help with the sanity check at the end). It could just as well be `Ah-Eh-Ra-Vh` (I thought it, wrote it, had help with the edit, verified it myself).
+**This README:** `Ah-Eh-Rh-Vh`  
+My idea. I wrote it. Human refined it. I verified it.
 
-A track might be `Ah-Em-Rh-Vh` (your composition, AI generated the stems, you mixed it, you verified the output).
+**A blog post:** `Ah-Eh-Ra-Vh`  
+Your concept, you wrote it, AI helped edit, you checked it.
 
-Use as much or as little as you need. The disclosure is entirely up to you. It's assumed that anyone choosing to "CT code" their work is operating in good faith.
+**A track:** `Ah-Em-Rh-Vh`  
+Your composition, AI generated the stems, you mixed it, you verified the output.
 
-**[Read the full specification →](SPECIFICATION.md)**
+Use as much or as little as makes sense. The disclosure is entirely up to you. Anyone choosing to "CT code" their work is operating in good faith.
+
+---
 
 ## Why This Matters
 
-One of the difficult things we all face is the ambiguity surrounding what is and isn't generative creativity. Music production is full of comparisons between using loops, drum machines, and virtual performers. Most producers wouldn't think to label their productions using Logic Drummer as generative assistance. We've developed norms around what counts as human creativity even when machines are involved.
+We all want to be recognized for good creative work. There's a real difference between using spell-check, leveraging Logic's virtual drummer plugin, and typing a generic prompt into Suno. This system acknowledges that.
 
-But AI blurs those lines in new ways. No one labels their writing as AI-assisted because they used spell-check. But what about grammar check? Predictive text? Because a lot of our assumptions about this are going to change, we have to acknowledge that some of this has to do with social norms and conventions.
+Music production has dealt with this before. No one thinks twice about loop libraries, drum machines, or virtual performers. We've developed norms around what counts as human creativity even when machines are involved.
 
-In the interest of being transparent but not judgmental, anyone using this system is making a good-faith attempt to be transparent. A traditionalist who prides themselves on doing everything by hand might interpret "human origin" one way, and someone who uses an LLM to generate random images to inspire a songwriting session might claim the same. The common factor is the desire to disclose.
+But AI blurs those lines in new ways, and some of our assumptions are going to change. That's why we need a framework that's both specific and flexible—one that acknowledges social norms and conventions will shift over time.
 
-The point here is this isn't about policing. It's a way to acknowledge that we all want to be recognized for good creative work. I think it's the common human desire to take credit for our own ideas while acknowledging the force multiplier of the tools we use.
+This isn't about policing. It's about giving yourself credit for your ingenuity while acknowledging the tools you used to amplify it.
 
-This system is not about keeping track of whether the agent on the phone is a real person or determining if one AI model is biased. Those are valid concerns but separate issues. This initiative is about the very human desire to give ourselves credit for our own ingenuity while acknowledging the use of tools.
+This initiative is not about determining if chatbots are sentient or if AI models are biased. Those are valid concerns, but separate issues. This is about the very human desire to take credit for our own ideas while being transparent about the force multipliers we applied.
+
+---
+
+## How It Works
+
+1. Evaluate your creative process across the four dimensions
+2. Tag any/each dimension with h/a/m based on how you worked
+3. Share the code with your work (optional but encouraged)
+4. That's it
+
+**[Read the full specification →](SPECIFICATION.md)**
+
+---
 
 ## Get Involved
 
-This is a work in progress and I think it's something our community and others like it need. If you'd like to be part of developing it, let me know.
+This is a work in progress and needs community input.
 
-- Open an issue or start a discussion
-- See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
-- Check [discussions/NAMING.md](discussions/NAMING.md) for naming history
-- Previous versions are in the [archive](archive/) folder
+- **Feedback?** Open an issue or discussion
+- **Want to contribute?** See [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Questions about naming?** See [discussions/NAMING.md](discussions/NAMING.md)
+- **Previous versions:** Check the [archive](archive/) folder
+
+---
+
+## About This Project
+
+I wanted to share something I've been working on. It's inspired by Creative Commons—an attempt to give people a transparent, nonjudgmental way to disclose how and when AI gets used creatively.
+
+I think this is something our community needs. A judgment-free platform for self-disclosure that acknowledges both the value of human creativity and the reality of the tools we use.
+
+If you'd like to be part of developing it, let me know.
 
 ---
 
