@@ -2,92 +2,55 @@
 
 **v0.1 DRAFT** — Seeking feedback before public release
 
-A simple, voluntary system for disclosing how AI was used in creative work—not whether it was used.
-
 ---
+
+I wanted to share a project I've been working on. It's inspired by Creative Commons and it's an attempt to give people a transparent, nonjudgmental way to disclose how and when AI gets used creatively.
 
 ## The Problem
 
-"I used AI" doesn't tell you anything. 
-
-Spell-check? Logic Drummer laying down a beat? A straight Suno prompt? Right now they all get lumped together. That ambiguity makes it impossible to give yourself credit for the work you actually did, and the specter of AI makes people doubt whether creative work is actually yours.
-
-We need a way to be specific without being defensive.
-
----
-
-## The System
-
-Four dimensions. Three qualifiers. Total transparency.
-
-**A**: Authorship — Whose idea was it?  
-**E**: Execution** — Who did the work?  
-**R**: Refinement** — Who polished it?  
-**R**: Verification** — Who checked it?
-
-Tag each with:
-- **h** = human
-- **a** = assisted  
-- **m** = machine
-
-### Examples
-
-**This README:** `Ah-Eh-Rh-Vh`  
-My idea. I wrote it. Human refined it. I verified it.
-
-**A blog post:** `Ah-Eh-Ra-Vh`  
-Your concept, you wrote it, AI helped edit, you checked it.
-
-**A track:** `Ah-Em-Rh-Vh`  
-Your composition, AI generated the stems, you mixed it, you verified the output.
-
-Use as much or as little as makes sense. The disclosure is entirely up to you. Anyone choosing to "CT code" their work is operating in good faith.
-
----
-
-## Why This Matters
-
-We all want to be recognized for good creative work. There's a real difference between using spell-check, leveraging Logic's virtual drummer plugin, and typing a generic prompt into Suno. This system acknowledges that.
-
-Music production has dealt with this before. No one thinks twice about loop libraries, drum machines, or virtual performers. We've developed norms around what counts as human creativity even when machines are involved.
-
-But AI blurs those lines in new ways, and some of our assumptions are going to change. That's why we need a framework that's both specific and flexible—one that acknowledges social norms and conventions will shift over time.
-
-This isn't about policing. It's about giving yourself credit for your ingenuity while acknowledging the tools you used to amplify it.
-
-This initiative is not about determining if chatbots are sentient or if AI models are biased. Those are valid concerns, but separate issues. This is about the very human desire to take credit for our own ideas while being transparent about the force multipliers we applied.
-
----
+Right now, "I used AI" doesn't tell you anything. Spell-check? Logic Drummer laying down a beat? A straight Suno prompt? They all get lumped together, and the specter of AI makes people doubt whether creative work is actually yours.
 
 ## How It Works
 
-1. Evaluate your creative process across the four dimensions
-2. Tag each dimension with h/a/m based on how you worked
-3. Share the code with your work (optional but encouraged)
-4. That's it
+The Creative Transparency Initiative breaks the creative workflow into four components:
+
+**A**: Authorship — Whose idea was it?  
+**E**: Execution — Who did the work?  
+**R**: Refinement — Who polished it?  
+**V**: Verification — Who checked it?
+
+Each dimension can be tagged **h** (human), **a** (assisted), or **m** (machine).
+
+### Examples
+
+I might code a message as `Ah-Va` (my idea, I had help with the sanity check at the end). It could just as well be `Ah-Eh-Ra-Vh` (I thought it, wrote it, had help with the edit, verified it myself).
+
+A track might be `Ah-Em-Rh-Vh` (your composition, AI generated the stems, you mixed it, you verified the output).
+
+Use as much or as little as you need. The disclosure is entirely up to you. It's assumed that anyone choosing to "CT code" their work is operating in good faith.
 
 **[Read the full specification →](SPECIFICATION.md)**
 
----
+## Why This Matters
+
+One of the difficult things we all face is the ambiguity surrounding what is and isn't generative creativity. Music production is full of comparisons between using loops, drum machines, and virtual performers. Most producers wouldn't think to label their productions using Logic Drummer as generative assistance. We've developed norms around what counts as human creativity even when machines are involved.
+
+But AI blurs those lines in new ways. No one labels their writing as AI-assisted because they used spell-check. But what about grammar check? Predictive text? Because a lot of our assumptions about this are going to change, we have to acknowledge that some of this has to do with social norms and conventions.
+
+In the interest of being transparent but not judgmental, anyone using this system is making a good-faith attempt to be transparent. A traditionalist who prides themselves on doing everything by hand might interpret "human origin" one way, and someone who uses an LLM to generate random images to inspire a songwriting session might claim the same. The common factor is the desire to disclose.
+
+The point here is this isn't about policing. It's a way to acknowledge that we all want to be recognized for good creative work. I think it's the common human desire to take credit for our own ideas while acknowledging the force multiplier of the tools we use.
+
+This system is not about keeping track of whether the agent on the phone is a real person or determining if one AI model is biased. Those are valid concerns but separate issues. This initiative is about the very human desire to give ourselves credit for our own ingenuity while acknowledging the use of tools.
 
 ## Get Involved
 
-This is a work in progress and needs community input.
+This is a work in progress and I think it's something our community and others like it need. If you'd like to be part of developing it, let me know.
 
-- **Feedback?** Open an issue or discussion
-- **Want to contribute?** See [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Questions about naming?** See [discussions/NAMING.md](discussions/NAMING.md)
-- **Previous versions:** Check the [archive](archive/) folder
-
----
-
-## About This Project
-
-I wanted to share something I've been working on. It's inspired by Creative Commons—an attempt to give people a transparent, nonjudgmental way to disclose how and when AI gets used creatively.
-
-I think this is something our community needs. A judgment-free platform for self-disclosure that acknowledges both the value of human creativity and the reality of the tools we use.
-
-If you'd like to be part of developing it, let me know.
+- Open an issue or start a discussion
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
+- Check [discussions/NAMING.md](discussions/NAMING.md) for naming history
+- Previous versions are in the [archive](archive/) folder
 
 ---
 
